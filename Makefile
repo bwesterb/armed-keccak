@@ -1,5 +1,5 @@
-CFLAGS := $(CFLAGS) -O3 -mcpu=apple-a13
 #-mcpu=apple-a13 -O2
+CFLAGS := $(CFLAGS) -O3 -march=armv8.4-a+sha3
 
 
 .PHONY: default
